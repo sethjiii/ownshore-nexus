@@ -1,18 +1,16 @@
-
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { 
   Heart, Share2, MapPin, ArrowRight, Calendar, Phone, 
   DollarSign, BarChart3, Home, User, Clock, FileText, TrendingUp 
 } from 'lucide-react';
+import { Badge } from '@/components/ui/Badge';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/Badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
-// Sample property data
 const propertyData = {
   id: "1",
   title: "Luxury Apartment in South Delhi",
