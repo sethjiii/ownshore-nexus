@@ -1,10 +1,11 @@
+
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { 
   Heart, Share2, MapPin, ArrowRight, Calendar, Phone, 
   DollarSign, BarChart3, Home, User, Clock, FileText, TrendingUp 
 } from 'lucide-react';
-import { Badge } from '@/components/ui/Badge';
+import { Badge } from '@/components/ui/badge';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
