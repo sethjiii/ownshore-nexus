@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Search, MapPin, SlidersHorizontal, X } from 'lucide-react';
@@ -10,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Slider } from '@/components/ui/slider';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
-import { Badge } from '@/components/ui/badge';
+import { Badge } from '@/components/ui/Badge';
 
 // Sample property data
 const sampleProperties = [
@@ -86,7 +85,7 @@ const sampleProperties = [
     price: 22800000,
     yield: 14.8,
     minInvestment: 35000,
-    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80",
+    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
     type: "Commercial",
     area: 2350,
     investors: 132,
